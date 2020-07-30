@@ -14,7 +14,7 @@ The COG database must be on the same folder as GB2COG.py and with the path Cog_L
   
 # Usage
 ```
-Gb2COG.py <file1.gb> <file2.gb> ... <fileN.gb>
+GB2COG.py <file1.gb> <file2.gb> ... <fileN.gb>
 ```
 
 # Output
