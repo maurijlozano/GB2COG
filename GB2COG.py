@@ -44,7 +44,10 @@ for filename in sys.argv[1:]:
 					if not 'pseudo' in feature.qualifiers:
 						feature_name = feature.qualifiers["locus_tag"][0]
 						feature_product = re.sub('[^a-z^A-Z^0-9^-]','_',feature.qualifiers['product'][0])
-						feature_protid = feature.qualifiers['protein_id'][0]
+						if 'protein_id' in feature.qualifiers:
+							feature_protid = feature.qualifiers['protein_id'][0]
+						else:
+							feature_protid = ""
 						feature_seq = feature.qualifiers['translation'][0]
 						f.write('>'+feature_name+'|'+feature_product+'|'+feature_protid+'\n'+str(feature_seq)+'\n')
 						n+=1
