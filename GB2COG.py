@@ -9,6 +9,16 @@ import pandas as pd
 from Bio import SeqIO
 
 #functions
+def parseArgs():
+	parser = argparse.ArgumentParser(description='GB2COG extracts protein sequences and assigns COGs using rpsblast+..')
+	parser.add_argument("-q", "--QueryFiles",help="Query genomes in genbank format...", dest="qfiles", action='append', nargs='+', required=False)
+	parser.add_argument("-i", "--ID",help="Percent ID for rpsblast+...", dest="pid", action='store', required=False)
+	parser.add_argument("-e", "--evalue",help="Evalue for rpsblast+...", dest="evalue", action='store', required=False)
+	parser.add_argument("-c", "--queryCoverage",help="Query coverage for rpsblast+...", dest="qc", action='store', required=False)
+	args = parser.parse_args()
+	return args
+
+
 def CDD2COG(row):
 	cdd = int(row['CDD'])
 	cog = cdd2cog[cdd2cog['CDD'] == cdd].iloc[0,1]
@@ -17,20 +27,7 @@ def CDD2COG(row):
 def COG2FUN(row):
 	cog = row['COG']
 	fun = cog2fun[cog2fun['COG'] == cog].iloc[0,1]
-	fun=fun[0]
 	return fun
-
-def parseArgs():
-	'''
-	Argument parsing is done.
-	'''
-	parser = argparse.ArgumentParser(description='GB2COG extracts protein sequences and assigns COGs using rpsblast+..')
-	parser.add_argument("-q", "--QueryFiles",help="Query genomes in genbank format...", dest="qfiles", action='append', nargs='+', required=False)
-	parser.add_argument("-i", "--ID",help="Percent ID for rpsblast+...", dest="pid", action='store', required=False)
-	parser.add_argument("-e", "--evalue",help="Evalue for rpsblast+...", dest="evalue", action='store', required=False)
-	parser.add_argument("-c", "--queryCoverage",help="Query coverage for rpsblast+...", dest="qc", action='store', required=False)
-	args = parser.parse_args()
-	return args
 
 
 args = parseArgs()
@@ -87,7 +84,7 @@ for filename in args.qfiles[0]:
 		subprocess.call(['rpsblast+','-query', faaName, '-db', 'Cog_LE/Cog', '-out', faaCOG, '-evalue', evalue,  '-num_threads', str(int(ncpu)), '-max_target_seqs' ,'1', '-outfmt', '6 qseqid sseqid pident qlen length evalue'])
 		blastRes = pd.read_table(faaCOG,names=['qseqid','sseqid','pident','qlen','length','evalue'])
 		blastRes = blastRes[blastRes['pident'] > pid]
-		blastRes['qc'] = blastRes['qlen']/blastRes['length']*100
+		blastRes['qc'] = blastRes['length']/blastRes['qlen']*100
 		blastRes = blastRes[blastRes['qc'] > qc]
 		blastRes = blastRes[['qseqid','sseqid']]
 		blastRes = blastRes.groupby('qseqid', as_index=False).first()

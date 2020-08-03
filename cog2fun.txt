@@ -1368,7 +1368,6 @@ COG1529	C	CO or xanthine dehydrogenase, Mo-binding subunit
 COG1530	J	Ribonuclease G or E
 COG1531	S	Uncharacterized protein, UPF0248 family
 COG1532	R	Predicted RNA-binding protein
-COG1533	L	DNA repair photolyase
 COG1534	J	RNA-binding protein YhbY
 COG1535	Q	Isochorismate hydrolase
 COG1536	N	Flagellar motor switch protein FliG
@@ -1406,7 +1405,6 @@ COG1568	R	Predicted methyltransferase
 COG1569	R	Predicted nucleic acid-binding protein, contains PIN domain
 COG1570	L	Exonuclease VII, large subunit
 COG1571	J	tRNA(Ile2) C34 agmatinyltransferase TiaS
-COG1572	O	Serine protease, subtilase family
 COG1573	L	Uracil-DNA glycosylase
 COG1574	R	Predicted amidohydrolase YtcJ
 COG1575	H	1,4-dihydroxy-2-naphthoate octaprenyltransferase
@@ -4271,57 +4269,252 @@ COG5016	C	Pyruvate/oxaloacetate carboxyltransferase
 COG5017	G	UDP-N-acetylglucosamine transferase subunit ALG13
 COG5018	R	Inhibitor of the KinA pathway to sporulation, predicted exonuclease
 COG5019	DZ	Septin family protein
+COG5020	G	Mannosyltransferase 
+COG5021	O	Ubiquitin-protein ligase 
 COG5022	R	Myosin heavy chain
+COG5023	Z	Tubulin 
+COG5024	D	Cyclin 
+COG5025	K	Transcription factor of the Forkhead/HNF3 family 
 COG5026	G	Hexokinase
+COG5027	B	Histone acetyltransferase (MYST family) 
+COG5028	U	Vesicle coat complex COPII, subunit SEC24/subunit SFB2/subunit SFB3 
 COG5029	OI	Prenyltransferase, beta subunit
+COG5030	U	Clathrin adaptor complex, small subunit 
 COG5031	H	Ubiquinone biosynthesis protein Coq4
 COG5032	T	Phosphatidylinositol kinase or protein kinase, PI-3  family
 COG5033	K	Transcription initiation factor IIF, auxiliary subunit
+COG5034	B	Chromatin remodeling protein, contains PhD zinc finger 
+COG5035	D	Cell cycle control protein 
 COG5036	PU	SPX domain-containing protein involved in vacuolar polyphosphate accumulation
+COG5037	T	Gluconate transport-inducing protein 
 COG5038	R	Ca2+-dependent lipid-binding protein, contains C2 domain
 COG5039	GM	Exopolysaccharide biosynthesis protein EpsI, predicted pyruvyl transferase
+COG5040	T	14-3-3 family protein 
+COG5041	T	Casein kinase II, beta subunit 
 COG5042	F	Purine nucleoside permease
+COG5043	U	Vacuolar protein sorting-associated protein 
 COG5044	O	RAB proteins geranylgeranyltransferase component A (RAB escort protein)
+COG5045	J	Ribosomal protein S10E 
+COG5046	O	Protein involved in Mod5 protein sorting 
+COG5047	U	Vesicle coat complex COPII, subunit SEC23 
 COG5048	R	FOG: Zn-finger
 COG5049	L	5'-3' exonuclease
+COG5050	I	sn-1,2-diacylglycerol ethanolamine- and cholinephosphotranferases 
+COG5051	J	Ribosomal protein L36E 
+COG5052	U	Protein involved in membrane traffic 
+COG5053	J	Translation initiation factor 4E (eIF-4E) 
+COG5054	O	Mitochondrial sulfhydryl oxidase involved in the biogenesis of cytosolic Fe/S proteins 
 COG5055	L	Recombination DNA repair protein (RAD52 pathway)
+COG5056	I	Acyl-CoA cholesterol acyltransferase 
+COG5057	D	Phosphotyrosyl phosphatase activator 
+COG5058	U	Protein transporter of the TRAM (translocating chain-associating membrane) superfamily, longevity assurance factor 
+COG5059	Z	Kinesin-like protein 
+COG5061	O	Oxidoreductin, endoplasmic reticulum membrane-associated protein involved in disulfide bond formation 
+COG5062	S	Uncharacterized membrane protein 
+COG5063	R	CCCH-type Zn-finger protein 
+COG5064	U	Karyopherin (importin) alpha 
+COG5065	P	Protein involved in inorganic phosphate transport 
+COG5066	U	VAMP-associated protein involved in inositol metabolism 
+COG5067	L	Protein kinase essential for the initiation of DNA replication 
+COG5068	K	Regulator of arginine metabolism and related MADS box-containing transcription factors 
+COG5069	Z	Ca2+-binding actin-bundling protein fimbrin/plastin (EF-Hand superfamily) 
+COG5070	G	Nucleotide-sugar transporter 
+COG5071	O	26S proteasome regulatory complex component 
+COG5072	D	Serine/threonine kinase of the haspin family 
+COG5073	U	Vacuolar import and degradation protein 
 COG5074	U	t-SNARE complex subunit, syntaxin
+COG5075	S	Uncharacterized conserved protein 
+COG5076	B	Transcription factor involved in chromatin remodeling, contains bromodomain 
+COG5077	O	Ubiquitin carboxyl-terminal hydrolase 
 COG5078	O	Ubiquitin-protein ligase
+COG5079	U	Nuclear protein export factor 
+COG5080	U	Rab GTPase interacting factor, Golgi membrane protein 
+COG5081	S	Predicted membrane protein 
+COG5082	O	Arginine methyltransferase-interacting protein, contains RING Zn-finger 
 COG5083	I	Phosphatidate phosphatase PAH1, contains Lipin and LNS2 domains. can be involved in plasmid maintenance
+COG5084	R	Cleavage and polyadenylation specificity factor (CPSF) Clipper subunit and related makorin family Zn-finger proteins 
+COG5085	S	Predicted membrane protein 
+COG5086	S	Uncharacterized conserved protein 
+COG5087	S	Uncharacterized conserved protein 
+COG5088	R	Rad5p-binding protein 
+COG5090	K	Transcription initiation factor IIF, small subunit (RAP30) 
+COG5091	R	Suppressor of G2 allele of skp1 and related proteins 
+COG5092	I	N-myristoyl transferase 
+COG5093	S	Uncharacterized conserved protein 
+COG5094	K	Transcription initiation factor TFIID, subunit TAF9 (also component of histone acetyltransferase SAGA) 
+COG5095	K	Transcription initiation factor TFIID, subunit TAF6 (also component of histone acetyltransferase SAGA) 
 COG5096	U	Vesicle coat complex, various subunits
+COG5097	K	RNA polymerase II transcriptional regulation mediator 
+COG5098	B	Chromosome condensation complex Condensin, subunit D2 
+COG5099	J	RNA-binding protein of the Puf family, translational repressor 
+COG5100	Y	Nuclear pore protein 
+COG5101	Y	Importin beta-related nuclear transport receptor 
+COG5102	U	Membrane protein involved in ER to Golgi transport 
+COG5103	D	Cell division control protein, negative regulator of transcription 
+COG5104	A	Splicing factor 
+COG5105	D	Mitotic inducer, protein phosphatase 
+COG5106	S	Uncharacterized conserved protein 
+COG5107	A	Pre-mRNA 3'-end processing (cleavage and polyadenylation) factor 
 COG5108	K	Mitochondrial DNA-directed RNA polymerase
+COG5109	R	Uncharacterized conserved protein, contains RING Zn-finger 
+COG5110	O	26S proteasome regulatory complex component 
+COG5111	K	DNA-directed RNA polymerase III, subunit C34 
+COG5112	R	U1-like Zn-finger-containing protein 
+COG5113	O	Ubiquitin fusion degradation protein 2 
+COG5114	B	Histone acetyltransferase complex SAGA/ADA, subunit ADA2 
+COG5116	O	26S proteasome regulatory complex component 
+COG5117	J	Protein involved in the nuclear export of pre-ribosomes 
+COG5118	K	Transcription initiation factor TFIIIB, Bdp1 subunit 
 COG5119	R	Uncharacterized protein, contains ParB-like nuclease domain
+COG5120	U	Membrane protein involved in Golgi transport 
+COG5122	U	Transport protein particle (TRAPP) complex subunit 
+COG5123	K	Transcription initiation factor IIA, gamma subunit 
+COG5124	D	Protein predicted to be involved in meiotic recombination 
+COG5125	S	Uncharacterized conserved protein 
 COG5126	T	Ca2+-binding protein, EF-hand superfamily
+COG5127	C	Vacuolar H+-ATPase V1 sector, subunit C 
+COG5128	U	Transport protein particle (TRAPP) complex subunit 
+COG5129	R	Nuclear protein with HMG-like acidic region 
+COG5130	U	Prenylated rab acceptor 1 and related proteins 
+COG5131	O	Ubiquitin-like protein 
+COG5132	K	Cell cycle control protein, G10 family 
+COG5133	S	Uncharacterized conserved protein 
+COG5134	S	Uncharacterized conserved protein 
 COG5135	S	Uncharacterized protein
+COG5136	A	U1 snRNP-specific protein C 
+COG5137	K	Histone chaperone involved in gene silencing 
+COG5138	S	Uncharacterized conserved protein 
+COG5139	S	Uncharacterized conserved protein 
+COG5140	O	Ubiquitin fusion-degradation protein 
+COG5141	R	PHD zinc finger-containing protein 
+COG5142	L	Oxidation resistance protein 
+COG5143	U	Synaptobrevin/VAMP-like protein 
+COG5144	K	RNA polymerase II transcription initiation/nucleotide excision repair factor TFIIH, subunit TFB2 
+COG5145	L	DNA excision repair protein 
 COG5146	H	Pantothenate kinase
+COG5147	K	Myb superfamily proteins, including transcription factors and mRNA splicing factors 
+COG5148	O	26S proteasome regulatory complex, subunit RPN10/PSMD4 
+COG5149	K	Transcription initiation factor IIA, large chain 
+COG5150	K	Class 2 transcription repressor NC2, beta subunit (Dr1) 
+COG5151	K	RNA polymerase II transcription initiation/nucleotide excision repair factor TFIIH, subunit SSL1 
+COG5152	R	Uncharacterized conserved protein, contains RING and CCCH-type Zn-fingers 
 COG5153	U	Putative lipase essential for disintegration of autophagic bodies inside the vacuole
+COG5154	J	RNA-binding protein required for 60S ribosomal subunit biogenesis 
+COG5155	D	Separase, a protease involved in sister chromatid separation 
+COG5156	D	Anaphase-promoting complex (APC), subunit 10 
+COG5157	K	RNA polymerase II assessory factor 
+COG5158	U	Proteins involved in synaptic transmission and general secretion, Sec1 family 
+COG5159	O	26S proteasome regulatory complex component 
 COG5160	O	Protease, Ulp1 family
+COG5161	A	Pre-mRNA cleavage and polyadenylation specificity factor 
+COG5162	K	Transcription initiation factor TFIID, subunit TAF10 (also component of histone acetyltransferase SAGA) 
+COG5163	J	Protein required for biogenesis of the 60S ribosomal subunit 
 COG5164	K	Transcription elongation factor
+COG5165	K	Nucleosome-binding factor SPN, POB3 subunit 
+COG5166	S	Uncharacterized conserved protein 
+COG5167	U	Protein involved in vacuole import and degradation 
+COG5169	K	Heat shock transcription factor 
+COG5170	T	Serine/threonine protein phosphatase 2A, regulatory subunit 
+COG5171	U	Ran GTPase-activating protein (Ran-binding protein) 
+COG5173	U	Exocyst complex subunit SEC6 
+COG5174	K	Transcription initiation factor IIE, beta subunit 
+COG5175	K	Transcriptional repressor 
+COG5176	A	Splicing factor (branch point binding protein) 
+COG5177	S	Uncharacterized conserved protein 
+COG5178	A	U5 snRNP spliceosome subunit 
+COG5179	K	Transcription initiation factor TFIID, subunit TAF1 
 COG5180	A	PAB1-binding protein PBP1, interacts with poly(A)-binding protein
+COG5181	A	U2 snRNP spliceosome subunit 
+COG5182	A	Splicing factor 3b, subunit 2 
 COG5183	O	E3 ubiquitin-protein ligase DOA10
 COG5184	DZ	Alpha-tubulin suppressor and related RCC1 domain-containing proteins
 COG5185	D	Protein involved in chromosome segregation, interacts with SMC proteins
 COG5186	A	Poly(A) polymerase Pap1
+COG5187	O	26S proteasome regulatory complex component, contains PCI domain 
+COG5188	A	Splicing factor 3a, subunit 3 
+COG5189	K	Putative transcriptional repressor regulating G2/M transition 
 COG5190	K	TFIIF-interacting CTD phosphatase, includes NLI-interacting factor
+COG5191	R	Uncharacterized conserved protein, contains HAT (Half-A-TPR) repeat 
+COG5192	J	GTP-binding protein required for 40S ribosome biogenesis 
+COG5193	O	La protein, small RNA-binding pol III transcript stabilizing protein and related La-motif-containing proteins involved in translation 
+COG5194	O	Component of SCF ubiquitin ligase and anaphase-promoting complex 
+COG5195	S	Uncharacterized conserved protein 
+COG5196	U	ER lumen protein retaining receptor 
+COG5197	S	Predicted membrane protein 
+COG5198	R	Protein tyrosine phosphatase-like protein (contains Pro instead of catalytic Arg) 
+COG5199	Z	Calponin 
+COG5200	A	U1 snRNP component, mediates U1 snRNP association with cap-binding complex 
+COG5201	O	SCF ubiquitin ligase, SKP1 component 
+COG5202	S	Predicted membrane protein 
+COG5204	K	Transcription elongation factor SPT4 
 COG5206	O	Glycosylphosphatidylinositol transamidase (GPIT), subunit GPI8
 COG5207	R	Uncharacterized Zn-finger protein, UBP-type
+COG5208	K	CCAAT-binding factor, subunit C 
+COG5209	R	Uncharacterized protein involved in cell differentiation/sexual development 
+COG5210	R	GTPase-activating protein 
+COG5211	K	RNA polymerase II-interacting protein involved in transcription start site selection 
 COG5212	T	cAMP phosphodiesterase
+COG5213	A	Polyadenylation factor I complex, subunit FIP1 
+COG5214	L	DNA polymerase alpha-primase complex, polymerase-associated subunit B 
+COG5215	U	Karyopherin (importin) beta 
+COG5216	S	Uncharacterized conserved protein 
+COG5217	D	Microtubule-binding protein involved in cell cycle control 
+COG5218	B	Chromosome condensation complex Condensin, subunit G 
+COG5219	R	Uncharacterized conserved protein, contains RING Zn-finger 
+COG5220	D	Cdk activating kinase (CAK)/RNA polymerase II transcription initiation/nucleotide excision repair factor TFIIH, subunit TFB3 
+COG5221	K	Dopey and related predicted leucine zipper transcription factors 
+COG5222	R	Uncharacterized conserved protein, contains RING Zn-finger 
+COG5223	S	Uncharacterized conserved protein 
+COG5224	K	CCAAT-binding factor, subunit B 
+COG5225	J	Uncharacterized protein involved in ribosome biogenesis 
+COG5226	A	mRNA capping enzyme, guanylyltransferase (alpha) subunit 
+COG5227	O	Ubiquitin-like protein (sentrin) 
+COG5228	A	mRNA deadenylase subunit 
+COG5229	B	Chromosome condensation complex Condensin, subunit H 
+COG5230	S	Uncharacterized conserved protein 
+COG5231	C	Vacuolar H+-ATPase V1 sector, subunit H 
+COG5232	U	Preprotein translocase subunit Sec62 
+COG5233	U	Peripheral Golgi membrane protein 
+COG5234	O	Beta-tubulin folding cofactor D 
+COG5235	L	Single-stranded DNA-binding replication protein A (RPA), medium (30 kD) subunit 
+COG5236	R	Uncharacterized conserved protein, contains RING Zn-finger 
+COG5237	S	Predicted membrane protein 
 COG5238	TA	Ran GTPase-activating protein (RanGAP) involved in mRNA processing and transport
 COG5239	A	mRNA deadenylase, 3'-5' endonuclease subunit Ccr4
+COG5240	U	Vesicle coat complex COPI, gamma subunit 
+COG5241	L	Nucleotide excision repair endonuclease NEF1, RAD10 subunit 
+COG5242	K	RNA polymerase II transcription initiation/nucleotide excision repair factor TFIIH, subunit TFB4 
+COG5243	O	HRD ubiquitin ligase complex, ER membrane component 
 COG5244	D	Dynactin complex subunit involved in mitotic spindle partitioning in anaphase B
+COG5245	Z	Dynein, heavy chain 
+COG5246	A	Splicing factor 3a, subunit 2 
+COG5247	K	Class 2 transcription repressor NC2, alpha subunit (DRAP1 homolog) 
+COG5248	K	Transcription initiation factor TFIID, subunit TAF13 
+COG5249	U	Golgi protein involved in Golgi-to-ER retrieval 
+COG5250	K	RNA polymerase II, fourth largest subunit 
+COG5251	K	Transcription initiation factor TFIID, subunit TAF11 
+COG5252	R	Uncharacterized conserved protein, contains CCCH-type Zn-finger protein 
+COG5253	T	Phosphatidylinositol-4-phosphate 5-kinase 
+COG5254	S	Predicted membrane protein 
 COG5255	S	Uncharacterized protein
 COG5256	J	Translation elongation factor EF-1alpha (GTPase)
 COG5257	J	Translation initiation factor 2, gamma subunit (eIF-2gamma; GTPase)
 COG5258	R	GTPase
+COG5259	B	RSC chromatin remodeling complex subunit RSC8 
 COG5260	L	DNA polymerase sigma
+COG5261	D	Protein involved in regulation of cellular morphogenesis/cytokinesis 
+COG5262	B	Histone H2A 
 COG5263	G	Glucan-binding domain (YG repeat)
+COG5264	O	Vacuolar transporter chaperone 
 COG5265	O	ABC-type transport system involved in Fe-S cluster assembly, permease and ATPase components
 COG5266	R	Uncharacterized conserved protein, contains GH25 family domain
 COG5267	S	Uncharacterized conserved protein, DUF1800 family
 COG5268	U	Type IV secretory pathway, TrbD component
+COG5269	J	Ribosome-associated chaperone zuotin 
 COG5270	J	PUA domain (predicted RNA-binding domain)
 COG5271	J	Midasin, AAA ATPase with  vWA domain, involved in ribosome maturation
 COG5272	O	Ubiquitin
+COG5273	R	Uncharacterized protein containing DHHC-type Zn finger 
 COG5274	CI	Cytochrome b involved in lipid metabolism
 COG5275	R	BRCT domain type II
 COG5276	S	Uncharacterized conserved protein
@@ -4333,9 +4526,12 @@ COG5281	X	Phage-related minor tail protein
 COG5282	S	Uncharacterized conserved protein, DUF2342 family
 COG5283	X	Phage-related tail protein
 COG5285	Q	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family
+COG5290	K	IkappaB kinase complex, IKAP component 
+COG5291	S	Predicted membrane protein 
 COG5293	S	Uncharacterized protein YydD, contains DUF2326 domain
 COG5294	S	Uncharacterized protein YxeA
 COG5295	UW	Autotransporter adhesin
+COG5296	K	Transcription factor involved in TATA site selection and in elongation by RNA polymerase II 
 COG5297	G	Cellulase/cellobiase CelA1
 COG5298	S	Uncharacterized protein YdaL
 COG5301	X	Phage-related tail fibre protein
@@ -4344,6 +4540,7 @@ COG5304	K	Predicted DNA binding protein, CopG/RHH family
 COG5305	S	Uncharacterized membrane protein
 COG5306	S	Uncharacterized protein
 COG5307	R	Guanine-nucleotide exchange factor, contains Sec7 domain
+COG5308	U	Nuclear pore complex subunit 
 COG5309	G	Exo-beta-1,3-glucanase,  GH17 family
 COG5310	Q	Homospermidine synthase
 COG5314	X	Conjugal transfer/entry exclusion protein
@@ -4354,9 +4551,12 @@ COG5321	S	Uncharacterized protein
 COG5322	R	Predicted amino acid dehydrogenase
 COG5323	X	Large terminase phage packaging protein
 COG5324	J	tRNA splicing ligase
+COG5325	U	t-SNARE complex subunit, syntaxin 
 COG5328	S	Uncharacterized protein, UPF0262 family
+COG5329	T	Phosphoinositide polyphosphatase (Sac family) 
 COG5330	S	Uncharacterized conserved protein, DUF2336 family
 COG5331	S	Uncharacterized protein
+COG5333	D	Cdk activating kinase (CAK)/RNA polymerase II transcription initiation/nucleotide excision repair factor TFIIH/TFIIK, cyclin H subunit 
 COG5336	C	FoF1-type ATP synthase assembly protein I
 COG5337	M	Spore coat protein CotH
 COG5338	S	Uncharacterized protein
@@ -4367,6 +4567,7 @@ COG5342	R	Invasion protein IalB, involved in pathogenesis
 COG5343	T	Anti-sigma-K factor RskA
 COG5345	S	Uncharacterized protein
 COG5346	S	Uncharacterized membrane protein
+COG5347	U	GTPase-activating protein that regulates ARFs (ADP-ribosylation factors), involved in ARF-mediated vesicular transport 
 COG5349	S	Uncharacterized conserved protein, DUF983 family
 COG5350	R	Predicted protein tyrosine phosphatase
 COG5351	S	Uncharacterized protein
@@ -4376,9 +4577,12 @@ COG5354	R	Uncharacterized protein, contains Trp-Asp (WD) repeat
 COG5360	S	Uncharacterized conserved protein, heparinase superfamily
 COG5361	X	Uncharacterized conserved protein
 COG5362	X	Phage terminase large subunit
+COG5366	R	Protein involved in propagation of M2 dsRNA satellite of L-A virus 
 COG5368	S	Uncharacterized protein
+COG5369	S	Uncharacterized conserved protein 
 COG5371	F	Golgi nucleoside diphosphatase
 COG5373	S	Uncharacterized membrane protein
+COG5374	S	Uncharacterized conserved protein 
 COG5375	S	Uncharacterized protein
 COG5377	X	Phage-related protein, predicted endonuclease
 COG5378	R	Predicted nucleic acid-binding protein, contains PIN domain
@@ -4392,6 +4596,7 @@ COG5386	P	Heme-binding NEAT domain
 COG5387	O	Chaperone required for the assembly of the mitochondrial F1-ATPase
 COG5388	S	Uncharacterized protein
 COG5389	S	Uncharacterized protein
+COG5391	U	Phox homology (PX) domain protein 
 COG5393	S	Uncharacterized membrane protein YqjE
 COG5394	QT	Polyhydroxyalkanoate (PHA) synthesis regulator protein, binds DNA and PHA
 COG5395	S	Uncharacterized membrane protein
@@ -4406,16 +4611,21 @@ COG5404	D	Cell division inhibitor SulA, prevents FtsZ ring assembly
 COG5405	O	ATP-dependent protease HslVU (ClpYQ), peptidase subunit
 COG5406	KLB	Nucleosome binding factor SPN, SPT16 subunit
 COG5407	U	Preprotein translocase subunit Sec63
+COG5408	T	SPX domain-containing protein 
+COG5409	T	EXS domain-containing protein 
 COG5410	S	Uncharacterized protein
+COG5411	T	Phosphatidylinositol 5-phosphate phosphatase 
 COG5412	X	Phage-related protein
 COG5413	S	Uncharacterized integral membrane protein
 COG5414	K	TATA-binding protein-associated factor Taf7, part of the TFIID transcription initiation complex
+COG5415	R	Predicted integral membrane metal-binding protein 
 COG5416	S	Uncharacterized integral membrane protein
 COG5417	S	Uncharacterized ubiquitin-like protein YukD
 COG5418	S	Predicted secreted protein
 COG5419	S	Uncharacterized protein
 COG5420	S	Uncharacterized protein
 COG5421	X	Transposase
+COG5422	T	RhoGEF, Guanine nucleotide exchange factor for Rho/Rac/Cdc42-like GTPases
 COG5423	S	Predicted metal-binding protein
 COG5424	H	Pyrroloquinoline quinone (PQQ) biosynthesis protein C
 COG5425	S	Usg protein (tryptophan operon, function unknown)
@@ -4425,6 +4635,7 @@ COG5428	S	Uncharacterized protein YuzE
 COG5429	S	Uncharacterized protein
 COG5430	S	Spore coat protein U (SCPU) domain, function unknown
 COG5431	R	Predicted nucleic acid-binding protein, contains Zn-finger domain
+COG5432	T	RING-finger-containing E3 ubiquitin ligase
 COG5433	X	Predicted transposase YbfD/YdcC associated with H repeats
 COG5434	G	Polygalacturonase
 COG5435	S	Uncharacterized protein
@@ -4527,7 +4738,15 @@ COG5531	B	Chromatin remodeling complex protein RSC6, contains SWIB domain
 COG5532	S	Uncharacterized conserved protein YfdQ, DUF2303 family
 COG5533	O	Ubiquitin C-terminal hydrolase
 COG5534	X	Plasmid replication initiator protein
+COG5535	L	DNA repair protein RAD4 
+COG5536	O	Protein prenyltransferase, alpha subunit 
+COG5537	D	Cohesin 
+COG5538	N	Endoplasmic reticulum translocation complex, subunit SEC66 
+COG5539	O	Predicted cysteine protease (OTU family) 
+COG5540	O	RING-finger-containing ubiquitin ligase 
+COG5541	O	Vesicle coat complex COPI, zeta subunit 
 COG5542	G	Mannosyltransferase related to Gpi18
+COG5543	S	Uncharacterized conserved protein 
 COG5544	S	Uncharacterized conserved protein YfiM, DUF2279 family
 COG5545	X	Predicted P-loop ATPase and inactivated derivatives
 COG5546	S	Uncharacterized membrane protein
@@ -4543,6 +4762,8 @@ COG5555	U	Cytolysin, a secreted calcineurin-like phosphatase
 COG5556	S	Uncharacterized protein
 COG5557	C	Ni/Fe-hydrogenase 2 integral membrane subunit HybB
 COG5558	X	Transposase
+COG5559	S	Uncharacterized conserved small protein 
+COG5560	O	Ubiquitin C-terminal hydrolase 
 COG5561	S	Predicted metal-binding protein
 COG5562	S	Uncharacterized conserved protein YbcV, DUF1398 family
 COG5563	S	Uncharacterized membrane protein
@@ -4556,6 +4777,9 @@ COG5570	S	Uncharacterized protein
 COG5571	R	Uncharacterized protein YhjY, contains autotransporter beta-barrel domain
 COG5572	S	Uncharacterized membrane protein
 COG5573	R	Predicted nucleic acid-binding protein, contains PIN domain
+COG5574	O	RING-finger-containing E3 ubiquitin ligase 
+COG5575	L	Origin recognition complex, subunit 2 
+COG5576	K	Homeodomain-containing transcription factor 
 COG5577	M	Spore coat protein CotF
 COG5578	S	Uncharacterized membrane protein YesL
 COG5579	S	Uncharacterized protein, DUF1810 family
@@ -4572,11 +4796,18 @@ COG5589	S	Uncharacterized protein
 COG5590	H	Ubiquinone biosynthesis protein COQ9
 COG5591	S	Uncharacterized protein
 COG5592	R	Hemerythrin superfamily protein
+COG5593	J	Nucleic-acid-binding protein possibly involved in ribosomal biogenesis 
+COG5594	S	Uncharacterized integral membrane protein 
 COG5595	R	Predicted  nucleic acid-binding protein, contains Zn-ribbon domain
+COG5596	O	Mitochondrial import inner membrane translocase, subunit TIM22 
 COG5597	M	Alpha-N-acetylglucosamine transferase
 COG5598	H	Trimethylamine:corrinoid methyltransferase
 COG5599	T	Protein tyrosine phosphatase
+COG5600	L	Transcription-associated recombination protein 
+COG5601	K	General negative regulator of transcription subunit 
 COG5602	B	Histone deacetylase complex, regulatory component SIN3
+COG5603	N	Subunit of TRAPP, an ER-Golgi tethering complex 
+COG5604	S	Uncharacterized conserved protein 
 COG5605	C	Cytochrome c oxidase subunit IV
 COG5606	R	Predicted DNA-binding protein, XRE-type HTH domain
 COG5607	S	CHAD domain (function unknown)
@@ -4595,25 +4826,32 @@ COG5619	S	Uncharacterized protein
 COG5620	S	Uncharacterized protein
 COG5621	R	Predicted secreted hydrolase
 COG5622	M	Protein required for attachment to host cells
+COG5623	J	Predicted GTPase subunit of the pre-mRNA cleavage complex 
 COG5624	K	Transcription initiation factor TFIID, subunit TAF12
 COG5625	K	Predicted DNA-binding transcriptional regulator, contains HTH domain
 COG5626	S	Uncharacterized protein
 COG5627	L	SUMO ligase MMS21, Smc5/6 complex, required for cell growth and DNA repair
 COG5628	R	Predicted acetyltransferase
+COG5629	S	Predicted metal-binding protein 
 COG5630	E	Acetylglutamate synthase
 COG5631	K	Predicted transcription regulator, contains HTH domain, MarR family
 COG5632	M	N-acetylmuramoyl-L-alanine amidase CwlA
 COG5633	S	Uncharacterized conserved protein YcfL
 COG5634	S	Uncharacterized protein YukJ
 COG5635	T	Predicted NTPase, NACHT family domain
+COG5636	S	Uncharacterized conserved protein, contains Zn-ribbon-like motif 
 COG5637	S	Uncharacterized membrane protein
+COG5638	S	Uncharacterized protein
 COG5639	S	Uncharacterized protein
 COG5640	O	Secreted trypsin-like serine protease
+COG5641	K	GATA Zn-finger-containing transcription factor 
 COG5642	S	Uncharacterized conserved protein, DUF2384 family
 COG5643	R	Protein containing a metal-binding domain shared with formylmethanofuran dehydrogenase subunit E
 COG5644	S	U3 small nucleolar RNA-associated protein 14
 COG5645	S	Uncharacterized conserved protein YceK
 COG5646	S	Uncharacterized conserved protein YdhG, YjbR/CyaY-like superfamily, DUF1801 family
+COG5647	O	Cullin, a subunit of E3 ubiquitin ligase 
+COG5648	B	Chromatin-associated proteins containing the HMG domain 
 COG5649	S	Uncharacterized protein
 COG5650	S	Uncharacterized membrane protein
 COG5651	S	PPE-repeat protein
@@ -4621,6 +4859,8 @@ COG5652	S	VanZ like family protein (function unknown)
 COG5653	N	Acetyltransferase involved in cellulose biosynthesis, CelD/BcsL family
 COG5654	S	Uncharacterized conserved protein, contains RES domain
 COG5655	X	Plasmid rolling circle replication initiator protein REP and truncated derivatives
+COG5656	O	Importin, protein involved in nuclear import 
+COG5657	D	CAS/CSE protein involved in chromosome segregation 
 COG5658	S	Uncharacterized membrane protein
 COG5659	X	SRSO17 transposase
 COG5660	T	Predicted anti-sigma-YlaC factor YlaD, contains Zn-finger domain
