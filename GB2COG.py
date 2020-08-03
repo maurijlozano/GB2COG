@@ -54,11 +54,12 @@ ncpu=multiprocessing.cpu_count()
 cdd2cog = pd.read_table('cdd2cog.txt',names=['CDD','COG','Gene','Description','',])
 cog2fun = pd.read_table('cog2fun.txt',names=['COG','func','name'])
 
+allCOGs=pd.DataFrame()
+
 for filename in args.qfiles[0]:
 	print('Processsing '+str(filename)+'...')
 	basename = os.path.splitext(filename)[0]
 	i=1
-	allCOGs=pd.DataFrame()
 	for rec in SeqIO.parse(filename, "genbank"):
 		n = 1
 		description = rec.description
@@ -110,5 +111,6 @@ for filename in args.qfiles[0]:
 		#All in one table
 		allCOGs = pd.concat([allCOGs,completeCOGS],axis=1)
 		i+=1
-	allCOGs.to_csv('COG_matrix.txt')
+
+allCOGs.to_csv('COG_matrix.txt')
 
