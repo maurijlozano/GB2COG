@@ -27,6 +27,7 @@ def CDD2COG(row):
 def COG2FUN(row):
 	cog = row['COG']
 	fun = cog2fun[cog2fun['COG'] == cog].iloc[0,1]
+	fun = fun[0]
 	return fun
 
 
