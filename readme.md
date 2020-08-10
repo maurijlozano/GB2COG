@@ -3,7 +3,7 @@ This python script reads Genebank files, extracts protein sequences, make rpsbla
 
 # Requiremets
 - Ncbi blast+ suite (rpsblast+)
-- COG database, can be downloaded from (here)[ftp://ftp.ncbi.nlm.nih.gov/pub/mmdb/cdd/little_endian/]
+- COG database, can be downloaded from [here](ftp://ftp.ncbi.nlm.nih.gov/pub/mmdb/cdd/little_endian/)
 - Python modules
  - sys, os, re, subprocess,multiprocessing
 - Python third party modules:
@@ -14,7 +14,20 @@ The COG database must be on the same folder as GB2COG.py and with the path Cog_L
   
 # Usage
 ```
-GB2COG.py <file1.gb> <file2.gb> ... <fileN.gb>
+usage: GB2COG.py [-h] [-q QFILES [QFILES ...]] [-i PID] [-e EVALUE] [-c QC]
+
+GB2COG extracts protein sequences and assigns COGs using rpsblast+.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -q QFILES [QFILES ...], --QueryFiles QFILES [QFILES ...]
+                        Query genomes in genbank format...
+  -i PID, --ID PID      Percent ID for rpsblast+
+  -e EVALUE, --evalue EVALUE
+                        Evalue for rpsblast+
+  -c QC, --queryCoverage QC
+                        Query coverage for rpsblast+
+      
 ```
 
 # Output
