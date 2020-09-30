@@ -47,7 +47,7 @@ else:
 	qc = int(args.qc)
 	
 if not args.evalue:
-	evalue = 0.001
+	evalue = '0.001'
 else:	
 	evalue = args.evalue
 
