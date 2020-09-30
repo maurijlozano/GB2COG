@@ -3,7 +3,7 @@ This python script reads Genebank files, extracts protein sequences, make rpsbla
 
 # Requiremets
 - Ncbi blast+ suite (rpsblast+)
-- COG database, can be downloaded from [here](ftp://ftp.ncbi.nlm.nih.gov/pub/mmdb/cdd/little_endian/)
+- COG database, can be downloaded from ftp://ftp.ncbi.nlm.nih.gov/pub/mmdb/cdd/little_endian/
 - Python modules
  - sys, os, re, subprocess,multiprocessing
 - Python third party modules:
